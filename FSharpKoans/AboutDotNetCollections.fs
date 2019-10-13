@@ -57,6 +57,10 @@ module ``about dot net collections`` =
         let original = [0..5]
         let result = Seq.skip 2 original
         
+        //NOTE: result will be of the seq/IEnumerable type. 
+        //      To cast your answer to seq you simply write seq in front of it. 
+        //      Use previous knowledge to place the parans correctly.
+        
         AssertEquality result __
 
     [<Koan>]
